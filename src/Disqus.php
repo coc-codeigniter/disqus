@@ -15,9 +15,9 @@ class Disqus {
     private static $shortname = 'blog';
 
     function __construct(){
-      $CI =& get_instance();
-      $CI->config->load('disqus',TRUE);
-      $config = $CI->config->item('disqus');
+      $instance =& get_instance();
+      $instance->config->load('disqus',TRUE);
+      $config = $instance->config->item('disqus');
       self::$shortname = $config['disqus']['disqus_name'];
     }
 
