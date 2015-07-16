@@ -1,0 +1,17 @@
+{
+    "name": "carlosocarvalho/disqus",
+    "description": "Disqus demo",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Carlos Carvalho",
+            "email": "contato@carlosocarvalho.com.br"
+        }
+    ],
+    "autoload":{
+      "psr-4":{
+        "carlosocarvalho\\Disqus\\":"src/"
+      }
+    },
+    "require": {}
+}
