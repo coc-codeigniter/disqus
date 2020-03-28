@@ -1,4 +1,4 @@
-# disqus
+# Codeigniter Disqus
 
 Disqus Library 
 
