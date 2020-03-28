@@ -4,7 +4,7 @@ Disqus Library
 
 [![Codacy Badge](https://www.codacy.com/project/badge/9dc273e4a21d46e7a2895561da6cb994)](https://www.codacy.com/app/contato_2/disqus)
 
-**Create config for disqus **
+**Create config for disqus**
 
 ```php
 <?php
@@ -12,7 +12,7 @@ Disqus Library
 $config['disqus']=array('disqus_name'=>'yourname');
      
 ```
-**Create Helper Function **
+**Create Helper Function**
 
 ```php
 <?php 
